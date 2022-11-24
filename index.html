@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <script src="scriptB.js"></script>
+    <script src="scriptC.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Grade Calculator</title>
+</head>
+<body>
+
+<!-- 1학년 -->
+    <div style ="float: left;">
+        <h1>1학년</h1>
+    </div>
+    <div style="float: right;" >
+        <button id="create" class="w-btn w-btn-indigo">추가</button>
+        <button id="remove" class="w-btn w-btn-indigo">삭제</button>
+        <button id="save" class="w-btn w-btn-indigo">저장(계산)</button>
+    </div>
+
+    <div>
+        <table border="1px">
+            <thead>
+                <tr>
+                    <th>이수</th>
+                    <th>필수</th>
+                    <th>과목명</th>
+                    <th>학점</th>
+                    <th>출석점수</th>
+                    <th>과제점수</th>
+                    <th>중간고사</th>
+                    <th>기말고사</th>
+                    <th>총점</th>
+                    <th>평균</th>
+                    <th>성적</th>
+                    <th><input type="checkbox" id="allCheck"></th>
+                </tr>
+            </thead>
+
+            <tbody class="rows">
+            </tbody>
+
+            <tfoot class="result_table"> <!-- thead 및 tfoot은 table에 한 번 사용 가능하지만 tbody는 여러번 사용 가능하다.-->
+            </tfoot>
+
+        </table>
+    </div>
+
+<!-- 2학년 -->
+<div style ="float: left;">
+    <h1>2학년</h1>
+</div>
+<div style="float: right;" >
+    <button id="createB" class="w-btn w-btn-indigo">추가</button>
+    <button id="removeB" class="w-btn w-btn-indigo">삭제</button>
+    <button id="saveB" class="w-btn w-btn-indigo">저장(계산)</button>
+</div>
+
+<div>
+    <table border="1px">
+        <thead>
+            <tr>
+                <th>이수</th>
+                <th>필수</th>
+                <th>과목명</th>
+                <th>학점</th>
+                <th>출석점수</th>
+                <th>과제점수</th>
+                <th>중간고사</th>
+                <th>기말고사</th>
+                <th>총점</th>
+                <th>평균</th>
+                <th>성적</th>
+                <th><input type="checkbox" id="allCheckB"></th>
+            </tr>
+        </thead>
+
+        <tbody class="rowsB">
+        </tbody>
+
+        <tfoot class="result_tableB"> <!-- thead 및 tfoot은 table에 한 번 사용 가능하지만 tbody는 여러번 사용 가능하다.-->
+        </tfoot>
+
+    </table>
+</div>
+
+<!-- 3학년 -->
+<div style ="float: left;">
+    <h1>3학년</h1>
+</div>
+<div style="float: right;" >
+    <button id="createC" class="w-btn w-btn-indigo">추가</button>
+    <button id="removeC" class="w-btn w-btn-indigo">삭제</button>
+    <button id="saveC" class="w-btn w-btn-indigo">저장(계산)</button>
+</div>
+
+<div>
+    <table border="1px">
+        <thead>
+            <tr>
+                <th>이수</th>
+                <th>필수</th>
+                <th>과목명</th>
+                <th>학점</th>
+                <th>출석점수</th>
+                <th>과제점수</th>
+                <th>중간고사</th>
+                <th>기말고사</th>
+                <th>총점</th>
+                <th>평균</th>
+                <th>성적</th>
+                <th><input type="checkbox" id="allCheckC"></th>
+            </tr>
+        </thead>
+
+        <tbody class="rowsC">
+        </tbody>
+
+        <tfoot class="result_tableC"> <!-- thead 및 tfoot은 table에 한 번 사용 가능하지만 tbody는 여러번 사용 가능하다.-->
+        </tfoot>
+
+    </table>
+</div>
+
+</body>
+</html>
